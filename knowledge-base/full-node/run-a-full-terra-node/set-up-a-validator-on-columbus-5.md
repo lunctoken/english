@@ -5,6 +5,7 @@ menu_order: 1
 post_status: publish
 post_excerpt: 
 featured_image: 
+category: run-a-full-terra-node
 taxonomy:
     category:
         - run-a-full-terra-node
@@ -14,6 +15,7 @@ taxonomy:
         - Columbus-5
 
 ---
+
 <!-- wp:paragraph -->
 <p>Discussed in <a href="https://github.com/orgs/classic-terra/discussions/521" target="_blank" rel="noopener">https://github.com/orgs/classic-terra/discussions/521</a></p>
 <!-- /wp:paragraph -->
@@ -189,9 +191,9 @@ terrad status # until catching up is false</code></pre>
 <h2 class="wp-block-heading" id="h-joining-the-validator-set">Joining the validator set</h2>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="h-1-create-a-new-wallet">1. create a new wallet</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>1. create a new wallet</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:code -->
 <pre class="wp-block-code"><code>bash
@@ -200,25 +202,36 @@ terrad keys add valwallet
 terrad keys list # remember/copy your wallet address</code></pre>
 <!-- /wp:code -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="h-2-fund-the-wallet-with-some-lunc-tokens">2. fund the wallet with some LUNC tokens</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>2. fund the wallet with some LUNC tokens</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>3. register the validator, adjust the settings for commission etc. accordingly<br>**ATTENTION**<br>Some settings cannot be changed, e.g. the maximum commission and maximum change rate</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>```bash<br>terrad tx staking create-validator --amount "10000000uluna" --commission-max-change-rate "0.01" --commission-max-rate "0.2" --commission-rate "0.1" --min-self-delegation 1 --pubkey $(terrad tendermint show-validator) --moniker myvalidator --chain-id columbus-5 --gas auto --gas-prices 28.325uluna --gas-adjustment 2.5 --from valwallet<br># change settings and --from according to your needs and the wallet you created in step 1.<br>```</p>
-<!-- /wp:paragraph -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>bash
+terrad tx staking create-validator --amount "10000000uluna" --commission-max-change-rate "0.01" --commission-max-rate "0.2" --commission-rate "0.1" --min-self-delegation 1 --pubkey $(terrad tendermint show-validator) --moniker myvalidator --chain-id columbus-5 --gas auto --gas-prices 28.325uluna --gas-adjustment 2.5 --from valwallet
+# change settings and --from according to your needs and the wallet you created in step 1.</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:paragraph -->
-<p>4. check your validator is now in the active set via https://wallet.terra-classic.io (staking subsection) or<br>```bash<br>terrad q staking validators<br>```<br>It might be that you need more delegations to reach the active set.</p>
+<p>4. check your validator is now in the active set via https://wallet.terra-classic.io (staking subsection) or</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:code -->
+<pre class="wp-block-code"><code>bash
+terrad q staking validators</code></pre>
+<!-- /wp:code -->
+
 <!-- wp:paragraph -->
-<p>## Set up Oracle Price Server and Feeder</p>
+<p>It might be that you need more delegations to reach the active set.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="h-set-up-oracle-price-server-and-feeder">Set up Oracle Price Server and Feeder</h2>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>1. If you want to use the dockerized version, make sure you have docker and docker compose installed. See official docs for how to do that. If you want to use the manual deployment, make sure you have nodejs and npm installed.</p>
@@ -228,54 +241,83 @@ terrad keys list # remember/copy your wallet address</code></pre>
 <p>2. Create a new wallet which serves as the authorized feeder wallet for your validator. Feeding prices to the chain does not cost gas fees, but you need to send some minor funds to the feeder wallet nonetheless.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>```bash<br>terrad keys add feederwallet<br>```</p>
-<!-- /wp:paragraph -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>bash
+terrad keys add feederwallet</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:paragraph -->
 <p>3. Delegate feeder privileges to the feeder wallet.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:code -->
+<pre class="wp-block-code"><code>bash
+terrad tx oracle set-feeder --from --chain-id columbus-5 --gas auto --gas-prices 28.325uluna --gas-adjustment 2</code></pre>
+<!-- /wp:code -->
+
 <!-- wp:paragraph -->
-<p>```bash<br>terrad tx oracle set-feeder --from --chain-id columbus-5 --gas auto --gas-prices 28.325uluna --gas-adjustment 2<br>```</p>
+<p>4. Follow the instructions in the oracle feeder repository to set the service up:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>4. Follow the instructions in the oracle feeder repository to set the service up:<br>https://github.com/classic-terra/oracle-feeder/blob/main/README.md#using-docker-compose-recommended-experimental<br>or<br>https://github.com/classic-terra/oracle-feeder/blob/main/README.md#manual-deployment-instructions</p>
+<p><a href="https://github.com/classic-terra/oracle-feeder/blob/main/README.md#using-docker-compose-recommended-experimental">https://github.com/classic-terra/oracle-feeder/blob/main/README.md#using-docker-compose-recommended-experimental</a><br>or<br><a href="https://github.com/classic-terra/oracle-feeder/blob/main/README.md#manual-deployment-instructions">https://github.com/classic-terra/oracle-feeder/blob/main/README.md#manual-deployment-instructions</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>**Remember to use the right network settings!** For example:<br>```bash<br>npm start vote --<br>-d http://localhost:8532/latest<br>--lcd-url http://127.0.0.1:1317<br>--chain-id columbus-5<br>--validators <br>--password ```<br>You should use localhost for the oracle lcd, but you need to make sure you have the LCD enabled in your node config.<br>To do that, edit `~/.terra/config/app.toml` and find `enabled = false` in the `[api]` section. Change it to `true` and restart the node.<br>![grafik](https://github.com/user-attachments/assets/48b765af-151c-4245-ac51-6a69d18b65cb)</p>
+<p><strong>Remember to use the right network settings!</strong> For example:<br></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>bash
+npm start vote --
+-d http://localhost:8532/latest
+--lcd-url http://127.0.0.1:1317
+--chain-id columbus-5
+--validators 
+--password</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p><br>You should use localhost for the oracle lcd, but you need to make sure you have the LCD enabled in your node config.<br>To do that, edit `~/.terra/config/app.toml` and find `enabled = false` in the `[api]` section. Change it to `true` and restart the node.<br>![grafik](https://github.com/user-attachments/assets/48b765af-151c-4245-ac51-6a69d18b65cb)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>5. By checking the oracle logs, make sure you have the correct version of the oracle price server and feeder (see top of this page for the currently used version).</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>## Shutting down the validator permanently</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="h-shutting-down-the-validator-permanently">Shutting down the validator permanently</h2>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>If you decide to no longer take part in the network, please do **NOT** simply shut down your validator. Make sure that you properly undelegate all self-bonded tokens to unbond your validator. This can be done similar to this:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>```bash<br>terrad tx staking unbond 10000000uluna --from --chain-id columbus-5 --gas auto --gas-prices 28.325uluna --gas-adjustment 2<br>```</p>
-<!-- /wp:paragraph -->
+<!-- wp:code -->
+<pre class="wp-block-code"><code>bash
+terrad tx staking unbond 10000000uluna --from --chain-id columbus-5 --gas auto --gas-prices 28.325uluna --gas-adjustment 2</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:paragraph -->
 <p>Make sure to check `terrad q staking validators` for the state of your validator. It should say `status: BOND_STATUS_UNBONDING`.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>## Troubleshooting</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="h-troubleshooting">Troubleshooting</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading" id="h-feeder-complains-about-account-terra-vq7-not-found">Feeder complains about `account terra***************vq7 not found`</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>### Feeder complains about `account terra***************vq7 not found`<br>Make sure you have sent funds to the feeder wallet. Otherwise the chain does not know it exists.</p>
+<p><br>Make sure you have sent funds to the feeder wallet. Otherwise the chain does not know it exists.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading" id="h-feeder-does-not-report-prices">Feeder does not report prices</h3>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>### Feeder does not report prices<br>Make sure the local LCD is running and you have enabled the API. Double-check you are using the correct version of both the core and the oracle.</p>
+<p><br>Make sure the local LCD is running and you have enabled the API. Double-check you are using the correct version of both the core and the oracle.</p>
 <!-- /wp:paragraph -->
