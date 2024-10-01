@@ -14,7 +14,7 @@ taxonomy:
         - Columbus-5
 
 ---
-[giw_edit_link]
+<p>[giw_edit_link]</p>
 
 <!-- wp:paragraph -->
 <p>Discussed in <a href="https://github.com/orgs/classic-terra/discussions/521" target="_blank" rel="noopener">https://github.com/orgs/classic-terra/discussions/521</a></p>
