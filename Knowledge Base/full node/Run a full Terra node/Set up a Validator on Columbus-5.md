@@ -1,3 +1,22 @@
+---
+
+title: Setup a Validator on Columbus-5
+menu_order: 1
+post_status: publish
+post_excerpt: 
+featured_image: 
+taxonomy:
+    category:
+        - run-a-full-terra-node
+        - full-node
+    post_tag:
+        - setup validator
+        - Terra Classic
+        - Columbus-5
+
+---
+
+
 ### Discussed in https://github.com/orgs/classic-terra/discussions/521
 
 <div type='discussions-op-text'>
