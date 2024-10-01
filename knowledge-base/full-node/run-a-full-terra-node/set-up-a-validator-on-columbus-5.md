@@ -5,7 +5,6 @@ menu_order: 1
 post_status: publish
 post_excerpt: 
 featured_image: 
-category: run-a-full-terra-node
 taxonomy:
     category:
         - run-a-full-terra-node
