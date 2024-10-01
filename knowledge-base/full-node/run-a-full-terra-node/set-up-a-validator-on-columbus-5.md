@@ -14,9 +14,9 @@ taxonomy:
         - Columbus-5
 
 ---
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading" id="h-discussed-in-https-github-com-orgs-classic-terra-discussions-521">Discussed in <a href="https://github.com/orgs/classic-terra/discussions/521" target="_blank" rel="noopener">https://github.com/orgs/classic-terra/discussions/521</a></h5>
-<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Discussed in <a href="https://github.com/orgs/classic-terra/discussions/521" target="_blank" rel="noopener">https://github.com/orgs/classic-terra/discussions/521</a></p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p><sup>Originally posted by **StrathCole** September 24, 2024</sup></p>
