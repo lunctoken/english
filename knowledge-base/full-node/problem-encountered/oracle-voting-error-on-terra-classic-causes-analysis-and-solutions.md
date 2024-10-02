@@ -1,6 +1,6 @@
 ---
 
-title: Oracle Voting Error on Terra Classic: Causes, Analysis, and Solutions
+title: "Oracle Voting Error on Terra Classic: Causes, Analysis, and Solutions"
 menu_order: 1
 post_status: publish
 post_excerpt: 
@@ -14,6 +14,7 @@ taxonomy:
         - Oracle Vote
 
 ---
+
 <p>[giw_edit_link]</p>
 
 <!-- wp:heading -->
