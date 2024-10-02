@@ -18,9 +18,13 @@ taxonomy:
 
 <p>[giw_edit_link]</p>
 
+<!-- wp:paragraph -->
+<p>Running a testnet validator is a great way to participate in the Terra Classic ecosystem and contribute to its stability.<br>If you’re looking for a detailed guide on how to set up and run a testnet validator, check out this comprehensive walkthrough by StrathCole on GitHub. It covers all the necessary steps and configurations to get started.</p>
+<!-- /wp:paragraph -->
 
-Running a testnet validator is a great way to participate in the Terra Classic ecosystem and contribute to its stability.
-If you’re looking for a detailed guide on how to set up and run a testnet validator, check out this comprehensive walkthrough by StrathCole on GitHub. It covers all the necessary steps and configurations to get started.
+<!-- wp:paragraph -->
+<p>👉 <a href="https://github.com/orgs/classic-terra/discussions/516" target="_blank" rel="noreferrer noopener">Click here for the full guide</a></p>
+<!-- /wp:paragraph -->
 
 This is the short description of how to create a validator for the Terra Classic rebel-2 network.
 
