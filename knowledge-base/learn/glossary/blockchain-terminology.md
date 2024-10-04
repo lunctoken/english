@@ -1,3 +1,21 @@
+---
+
+title: "Blockchain Terminology"
+menu_order: 1
+post_status: publish
+post_excerpt: 
+featured_image: 
+taxonomy:
+    category:
+        - glossary
+        - learn
+    post_tag:
+        - Blockchain
+        - Terminology
+
+---
+
+<p>[giw_edit_link]</p>
 
 <!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">1. <strong>Blockchain</strong></h4>
