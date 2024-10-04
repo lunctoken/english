@@ -8,6 +8,7 @@ featured_image:
 taxonomy:
     category:
         - problem-encountered
+        - full-node
     post_tag:
         - Oracle
         - Oracle Issue
