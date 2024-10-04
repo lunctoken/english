@@ -6,9 +6,6 @@ post_status: publish
 post_excerpt: 
 featured_image: 
 taxonomy:
-    category:
-        - develop
-        - guides
     post_tag:
         - Testnet
         - Validator
