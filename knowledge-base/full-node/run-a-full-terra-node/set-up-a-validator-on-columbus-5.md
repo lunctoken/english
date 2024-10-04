@@ -8,6 +8,7 @@ featured_image:
 taxonomy:
     category:
         - run-a-full-terra-node
+        - full-node
     post_tag:
         - setup validator
         - Terra Classic
