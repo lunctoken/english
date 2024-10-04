@@ -12,3 +12,5 @@ taxonomy:
 
 ---
 <p>[giw_edit_link]</p>
+
+ Coming Soon
