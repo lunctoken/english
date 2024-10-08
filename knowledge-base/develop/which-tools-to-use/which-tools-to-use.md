@@ -6,6 +6,9 @@ post_status: publish
 post_excerpt: 
 featured_image: 
 taxonomy:
+    category:
+        - which-tools-to-use
+        - develop
     post_tag:
         - Tools
         - Terra Classic
