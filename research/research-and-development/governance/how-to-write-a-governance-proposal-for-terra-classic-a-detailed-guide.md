@@ -1,3 +1,25 @@
+---
+
+title: "How to Write a Governance Proposal for Terra Classic: A Detailed Guide"
+menu_order: 1
+post_status: publish
+post_excerpt: 
+featured_image:
+taxonomy:
+    category:
+        - governance
+        - research-and-development
+        - research
+    post_tag:
+        - Governance
+        - How-to
+        - Proposal
+        - Terra Classic
+
+---
+
+<p>[giw_edit_link]</p>
+
 <!-- wp:paragraph -->
 <p>Creating a well-structured and clear governance proposal is crucial to ensuring community understanding and engagement on the Terra Classic blockchain. Here’s a step-by-step guide to drafting an effective proposal for submission.</p>
 <!-- /wp:paragraph -->
