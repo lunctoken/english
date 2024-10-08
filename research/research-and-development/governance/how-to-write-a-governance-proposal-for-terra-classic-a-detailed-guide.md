@@ -4,7 +4,7 @@ title: "How to Write a Governance Proposal for Terra Classic: A Detailed Guide"
 menu_order: 1
 post_status: publish
 post_excerpt: 
-featured_image:
+featured_image: https://www.lunctoken.org/wp-content/uploads/2024/09/governance-medium-www.lunctoken.org_-1024x682.jpg
 taxonomy:
     category:
         - governance
