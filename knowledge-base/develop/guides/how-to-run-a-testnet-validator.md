@@ -8,7 +8,6 @@ featured_image:
 taxonomy:
     epkb_post_type_1_category:
         - guides
-        - develop
     epkb_post_type_1_tag:
         - Testnet
         - Validator
