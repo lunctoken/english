@@ -13,6 +13,8 @@ taxonomy:
         - Testnet
         - Validator
         - Run a Validator
+custom_fields:
+    post_type: epkb_post_type_1
 
 ---
 <p>[giw_edit_link]</p>
