@@ -6,14 +6,12 @@ post_status: publish
 post_excerpt: 
 featured_image: 
 taxonomy:
-    category:
+    epkb_post_type_1_category:
         - problem-encountered
-        - full-node
-    post_tag:
+    epkb_post_type_1_tag:
         - Oracle
         - Oracle Issue
         - Oracle Vote
-
 ---
 
 <p>[giw_edit_link]</p>
