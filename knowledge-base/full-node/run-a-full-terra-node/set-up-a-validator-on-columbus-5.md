@@ -6,10 +6,9 @@ post_status: publish
 post_excerpt: 
 featured_image: 
 taxonomy:
-    category:
+    epkb_post_type_1_category:
         - run-a-full-terra-node
-        - full-node
-    post_tag:
+    epkb_post_type_1_tag:
         - setup validator
         - Terra Classic
         - Columbus-5
