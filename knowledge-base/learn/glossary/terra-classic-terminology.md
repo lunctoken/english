@@ -6,10 +6,9 @@ post_status: publish
 post_excerpt: 
 featured_image: 
 taxonomy:
-    category:
+    epkb_post_type_1_category:
         - glossary
-        - learn
-    post_tag:
+    epkb_post_type_1_tag:
         - Terra Classic
         - Blockchain
         - Terminology
