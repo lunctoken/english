@@ -8,8 +8,6 @@ featured_image: https://www.lunctoken.org/wp-content/uploads/2024/09/governance-
 taxonomy:
     category:
         - governance
-        - research-and-development
-        - research
     post_tag:
         - Governance
         - How-to
