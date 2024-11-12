@@ -19,6 +19,8 @@ taxonomy:
 ---
 <p>[giw_edit_link]</p>
 
+# ** NOT UPDATED SINCE MAY 2022 **
+
 # RPC and LCD endpoints
 
 ## Private endpoints
