@@ -23,14 +23,14 @@ taxonomy:
 
 ## Developer links
 
-- [Terra Docs](http://docs.terra.money) - Official documentation for Terra
-- [Terra Wiki](https://terrawiki.org/) - Maintained by the community, for the community
-- [Terra Academy](https://academy.terra.money/) - Learn CosmWasm Smart Contracts!
+- [Terra Docs](http://docs-classic.terra.money) - Official documentation for Terra
+- [Luna Classic Wiki](https://www.lunctoken.org/knowledge-base/) - Maintained by the community, for the community
+- [Luna Classic Academy](https://www.lunctoken.org/luna-classic-academy/) - Learn CosmWasm Smart Contracts!
 - [Terra.js](https://docs.terra.money/docs/develop/sdks/terra-js/README.html) - Terra.js seeks to provide a compatible way to work with the Terra blockchain within JavaScript runtimes, such as Node.js and the browser.
 - [Terra.py](https://terra-money.github.io/terra.py/) - Official documentation for the Terra Python SDK
 - Community Resource: [terra.engineer](https://terra.engineer/) - Learn about the different Terra Ecosystem components
 - Community Resource: [learnterra.io](https://learnterra.io/developers/) - Hub of links to useful resources
-- [Agora developer forum](https://agora.terra.money/c/developer/20)
+- [Developer Forum](https://www.lunctoken.org/bp-groups/luna-classic-developers/forum/)
 
 ## Developer support
     
