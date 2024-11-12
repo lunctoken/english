@@ -1,3 +1,24 @@
+---
+
+title: "Developer resources"
+menu_order: 1
+post_status: publish
+post_excerpt: 
+featured_image: 
+taxonomy:
+    epkb_post_type_1_category:
+        - develop
+    epkb_post_type_1_tag:
+        - Developer resources
+        - Developer links
+        - Developer support
+        - Terra Classic
+
+---
+<p>[giw_edit_link]</p>
+
+# ** NOT UPDATED SINCE MAY 2022 **
+
 # Developer resources
 
 ## Developer links
@@ -13,7 +34,7 @@
 
 ## Developer support
     
-Find developer support on [Discord](https://discord.com/invite/EuKCeGFb93) or [Telegram](https://t.me/+gCxCPohmVBkyNDRl).
+Find developer support on [Discord](https://discord.gg/FxqPKsbXnh) or [Telegram](https://t.me/+gCxCPohmVBkyNDRl).
     
 ### Discord instructions
     
