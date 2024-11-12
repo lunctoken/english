@@ -50,4 +50,4 @@ Find developer support on [Discord](https://discord.gg/FxqPKsbXnh) or [Telegram]
 
 ### Developer Forum
     
-Join the [Agora developer forum](https://agora.terra.money/c/developer/20), a community-managed forum to address commonly asked questions by developers. 
+Join the [CommonWealth.im developer forum](https://commonwealth.im/terra-luna-classic-lunc/discussions), a community-managed forum to address commonly asked questions by developers. 
