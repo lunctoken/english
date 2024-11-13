@@ -12,7 +12,7 @@ taxonomy:
         - Developer resources
         - dApp
         - Quick Start
-		- Guide
+	- Guide
         - Terra Classic
 
 ---
