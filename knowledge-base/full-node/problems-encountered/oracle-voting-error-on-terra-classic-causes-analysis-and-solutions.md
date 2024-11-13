@@ -7,7 +7,7 @@ post_excerpt:
 featured_image: 
 taxonomy:
     epkb_post_type_1_category:
-        - problem-encountered
+        - problems-encountered
     epkb_post_type_1_tag:
         - Oracle
         - Oracle Issue
