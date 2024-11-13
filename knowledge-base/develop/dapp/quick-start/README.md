@@ -10,10 +10,7 @@ taxonomy:
         - quick-start
     epkb_post_type_1_tag:
         - Developer resources
-        - dApp
-        - Quick Start
-	- Guide
-        - Terra Classic
+	- Terra Classic
 
 ---
 <p>[giw_edit_link]</p>
