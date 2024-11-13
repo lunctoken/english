@@ -7,7 +7,7 @@ post_excerpt:
 featured_image: 
 taxonomy:
     epkb_post_type_1_category:
-        - develop
+        - develop-overview
     epkb_post_type_1_tag:
         - Developer resources
         - Developer links
