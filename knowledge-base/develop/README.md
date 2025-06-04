@@ -1,3 +1,26 @@
+---
+
+title: "Develop"
+slug: develop
+menu_order: 1
+post_status: publish
+post_excerpt: 
+featured_image: 
+taxonomy:
+    epkb_post_type_1_category:
+        - develop
+    epkb_post_type_1_tag:
+        - Develop
+        - SDK
+        - dApp
+        - Tooling
+        - Terra Classic
+
+---
+<p>[giw_edit_link]</p>
+
+# ** NOT UPDATED SINCE MAY 2022 **
+
 # Develop
 
 Welcome to the Terra developer documentation. If this is your first time building on Terra and you want to set up your environment, use the [quickstart guide](dapp/quick-start/README.md). Use the [how-to guides](how-to/README.md) to learn about using [`terrad`](how-to/terrad/README.md), the command line interface and node daemon for the Terra network, and [LocalTerra](how-to/localterra/README.md), a local testing environment. [Terra.js](sdks/terra-js/README.md) and [Terra.py](https://terra-money.github.io/terra.py/) are the Javascript and Python SDKs for Terra.
@@ -22,7 +45,7 @@ resources
 :::{grid-item-card}
 :link: get-started.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Build_a_dApp_ver2.svg
+```{image} https://github.com/lunctoken/english/raw/main/img/Build_a_dApp_ver2.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Start building**  
@@ -30,9 +53,9 @@ resources
 :::
 
 :::{grid-item-card}
-:link: tools.html
+:link: tools
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Terrad.svg
+```{image} https://github.com/lunctoken/english/raw/main/img/Terrad.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Tools**
@@ -40,9 +63,9 @@ resources
 :::
 
 :::{grid-item-card}
-:link: dapp/quick-start/README.html
+:link: dapp/quick-start/README
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terrain.png
+```{image} https://github.com/lunctoken/english/raw/main/img/terrain.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terrain**  
@@ -50,18 +73,18 @@ resources
 :::
 
 :::{grid-item-card}
-:link: how-to/localterra/README.html
+:link: how-to/localterra/README
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalTerra.svg
+```{image} https://github.com/lunctoken/english/raw/main/img/LocalTerra.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **LocalTerra**  
 :::
 
 :::{grid-item-card}
-:link: sdks/terra-js/README.html
+:link: sdks/terra-js/README
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_js.svg
+```{image} https://github.com/lunctoken/english/raw/main/img/terra_js.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.js**  
@@ -70,25 +93,25 @@ resources
 :::{grid-item-card}
 :link: https://terra-money.github.io/terra.py/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_sdk.svg
+```{image} https://github.com/lunctoken/english/raw/main/img/terra_sdk.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.py**  
 :::
 
 :::{grid-item-card}
-:link: module-specifications/README.html
+:link: module-specifications/README
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_core.svg
+```{image} https://github.com/lunctoken/english/raw/main/img/icon_core.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Core modules**  
 :::
 
 :::{grid-item-card}
-:link: how-to/sign-with-multisig.html
+:link: how-to/sign-with-multisig
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Ecosystem_ver2.svg
+```{image} https://github.com/lunctoken/english/raw/main/img/Ecosystem_ver2.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Multisig**  
@@ -97,7 +120,7 @@ resources
 :::{grid-item-card}
 :link: https://faucet.terra.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Faucet.svg
+```{image} https://github.com/lunctoken/english/raw/main/img/Faucet.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Faucet**  
