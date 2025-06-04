@@ -21,79 +21,71 @@ taxonomy:
 
 # ** NOT UPDATED SINCE MAY 2022 **
 
-# Terrain quickstart guide
+# Terrain Quickstart Guide
 
-Terrain is a Terra development environment that creates a better smart contract development experience.
+**Terrain** is a Terra development environment that creates a better smart contract development experience.
 
 This guide will walk you through setting up your environment, installing Terrain, and using the testnet or LocalTerra to interact with a network.
 
-For more information on Terrain, visit [Terrain's readme](https://github.com/terra-money/terrain#readme).
+👉 For more information on Terrain, visit [Terrain's README](https://github.com/terra-money/terrain#readme).
 
-:::::::{grid} 2 2 2 3
-:gutter: 3
-:class-row: sd-align-major-center
+---
 
-:::{grid-item-card}
-:link: initial-setup.html
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terrain.png
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Terrain setup**  
-Use this tutorial to set up Terrain in 5 minutes.
-:::
+## 🧩 Choose a guide
 
-:::{grid-item-card}
-:link: using-terrain-testnet.html
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_node.svg
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Terrain and the testnet**  
-8+ GB of RAM recommended. 
-:::
+<div class="terrain-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; align-items: start;">
 
-:::{grid-item-card}
-:link: using-terrain-localterra.html
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalTerra.svg
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Terrain and LocalTerra**  
-16+ GB of RAM recommended.
-:::
+<div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
+  <a href="initial-setup.html">
+    <img src="/img/terrain.png" alt="Terrain setup" style="max-width:100px; padding-bottom:10px;" />
+    <h3>Terrain setup</h3>
+    <p>Use this tutorial to set up Terrain in 5 minutes.</p>
+  </a>
+</div>
 
-:::{grid-item-card}
-:link: mint-an-nft.html
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/bullet_terra.svg
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Mint an NFT using Terrain**  
-Learn how to mint your own NFTs with Terrain. 
-:::
+<div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
+  <a href="using-terrain-testnet.html">
+    <img src="/img/icon_node.svg" alt="Terrain testnet" style="max-width:100px; padding-bottom:10px;" />
+    <h3>Terrain and the testnet</h3>
+    <p>8+ GB of RAM recommended.</p>
+  </a>
+</div>
 
-:::{grid-item-card}
-:link: contract-migration.html
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_smartcontract.svg
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Contract migration with Terrain**  
-Learn how to migrate CosmWasm contracts on Terra. 
-:::
+<div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
+  <a href="using-terrain-localterra.html">
+    <img src="/img/LocalTerra.svg" alt="Terrain LocalTerra" style="max-width:100px; padding-bottom:10px;" />
+    <h3>Terrain and LocalTerra</h3>
+    <p>16+ GB of RAM recommended.</p>
+  </a>
+</div>
 
-:::::::
+<div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
+  <a href="mint-an-nft.html">
+    <img src="/img/bullet_terra.svg" alt="Mint an NFT" style="max-width:100px; padding-bottom:10px;" />
+    <h3>Mint an NFT using Terrain</h3>
+    <p>Learn how to mint your own NFTs with Terrain.</p>
+  </a>
+</div>
 
-## Contents <img src="/img/Glossary.svg" height="30px">
+<div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
+  <a href="contract-migration.html">
+    <img src="/img/icon_smartcontract.svg" alt="Contract Migration" style="max-width:100px; padding-bottom:10px;" />
+    <h3>Contract migration with Terrain</h3>
+    <p>Learn how to migrate CosmWasm contracts on Terra.</p>
+  </a>
+</div>
 
-```{toctree}
-:maxdepth: 1
-initial-setup
-using-terrain-testnet
-using-terrain-localterra
-mint-an-nft
-contract-migration
-cw20-factory
+</div>
 
-```
+---
+
+## 📚 Contents <img src="/img/Glossary.svg" alt="Glossary icon" height="30px" style="vertical-align: middle;">
+
+<ul>
+  <li><a href="initial-setup/">Initial setup</a></li>
+  <li><a href="using-terrain-testnet/">Using Terrain on the testnet</a></li>
+  <li><a href="using-terrain-localterra/">Using Terrain on LocalTerra</a></li>
+  <li><a href="mint-an-nft/">Mint an NFT</a></li>
+  <li><a href="contract-migration/">Contract migration</a></li>
+  <li><a href="cw20-factory/">CW20 Factory</a></li>
+</ul>
