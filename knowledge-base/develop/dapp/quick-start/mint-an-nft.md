@@ -78,7 +78,7 @@ After all the dependencies have been installed, you can close this terminal wind
 ## 2. Start LocalTerra
 LocalTerra is a complete Terra testnet and ecosystem containerized with Docker. In this tutorial, you will use LocalTerra to simulate transactions in a local testing environment.
  
-After [downloading LocalTerra](https://docs.terra.money/docs/develop/dapp/quick-start/using-terrain-localterra.html#install-and-run-localterra) and all its dependencies, open a new terminal window and run the following commands:
+After [downloading LocalTerra]([https://github.com/lunctoken/english/blob/main/knowledge-base/develop/dapp/quick-start/using-terrain-localterra/#install-and-run-localterra) and all its dependencies, open a new terminal window and run the following commands:
  
 ```sh
 cd localterra
