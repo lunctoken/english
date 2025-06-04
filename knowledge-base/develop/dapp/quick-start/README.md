@@ -1,6 +1,7 @@
 ---
 
 title: "Terrain Quickstart Guide"
+slug: terrain-quickstart-guide
 menu_order: 1
 post_status: publish
 post_excerpt: 
