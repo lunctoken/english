@@ -79,7 +79,7 @@ This guide will walk you through setting up your environment, installing Terrain
 
 ---
 
-## 📚 Contents <img src="/img/Glossary.svg" alt="Glossary icon" height="30px" style="vertical-align: middle;">
+## 📚 Contents <img src="https://github.com/lunctoken/english/raw/main/img/Glossary.svg" alt="Glossary icon" height="30px" style="vertical-align: middle;">
 
 <ul>
   <li><a href="initial-setup/">Initial setup</a></li>
