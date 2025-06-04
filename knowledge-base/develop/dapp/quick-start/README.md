@@ -36,40 +36,40 @@ This guide will walk you through setting up your environment, installing Terrain
 <div class="terrain-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; align-items: start;">
 
 <div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
-  <a href="initial-setup.html">
-    <img src="/img/terrain.png" alt="Terrain setup" style="max-width:100px; padding-bottom:10px;" />
+  <a href="initial-setup/">
+    <img src="https://github.com/lunctoken/english/raw/main/img/terrain.png" alt="Terrain setup" style="max-width:100px; padding-bottom:10px;" />
     <h3>Terrain setup</h3>
     <p>Use this tutorial to set up Terrain in 5 minutes.</p>
   </a>
 </div>
 
 <div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
-  <a href="using-terrain-testnet.html">
-    <img src="/img/icon_node.svg" alt="Terrain testnet" style="max-width:100px; padding-bottom:10px;" />
+  <a href="using-terrain-testnet/">
+    <img src="https://github.com/lunctoken/english/raw/main/img/icon_node.svg" alt="Terrain testnet" style="max-width:100px; padding-bottom:10px;" />
     <h3>Terrain and the testnet</h3>
     <p>8+ GB of RAM recommended.</p>
   </a>
 </div>
 
 <div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
-  <a href="using-terrain-localterra.html">
-    <img src="/img/LocalTerra.svg" alt="Terrain LocalTerra" style="max-width:100px; padding-bottom:10px;" />
+  <a href="using-terrain-localterra/">
+    <img src="https://github.com/lunctoken/english/raw/main/img/LocalTerra.svg" alt="Terrain LocalTerra" style="max-width:100px; padding-bottom:10px;" />
     <h3>Terrain and LocalTerra</h3>
     <p>16+ GB of RAM recommended.</p>
   </a>
 </div>
 
 <div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
-  <a href="mint-an-nft.html">
-    <img src="/img/bullet_terra.svg" alt="Mint an NFT" style="max-width:100px; padding-bottom:10px;" />
+  <a href="mint-an-nft/">
+    <img src="https://github.com/lunctoken/english/raw/main/img/bullet_terra.svg" alt="Mint an NFT" style="max-width:100px; padding-bottom:10px;" />
     <h3>Mint an NFT using Terrain</h3>
     <p>Learn how to mint your own NFTs with Terrain.</p>
   </a>
 </div>
 
 <div class="terrain-card" style="text-align:center; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:1.2rem;">
-  <a href="contract-migration.html">
-    <img src="/img/icon_smartcontract.svg" alt="Contract Migration" style="max-width:100px; padding-bottom:10px;" />
+  <a href="contract-migration/">
+    <img src="https://github.com/lunctoken/english/raw/main/img/icon_smartcontract.svg" alt="Contract Migration" style="max-width:100px; padding-bottom:10px;" />
     <h3>Contract migration with Terrain</h3>
     <p>Learn how to migrate CosmWasm contracts on Terra.</p>
   </a>
