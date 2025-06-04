@@ -1,3 +1,29 @@
+---
+
+title: "Mint an NFT using Terrain"
+slug: mint-an-nft-using-terrain
+menu_order: 1
+post_status: publish
+post_excerpt: 
+featured_image: 
+taxonomy:
+    epkb_post_type_1_category:
+        - quick-start
+    epkb_post_type_1_tag:
+        - Developer resources
+        - dApp
+        - Quick Start
+        - Guide
+        - Terra Classic
+        - Mint
+        - NFT
+        - Terrain
+
+---
+<p>[giw_edit_link]</p>
+
+# ** NOT UPDATED SINCE MAY 2022 **
+
 # Mint an NFT using Terrain
  
 NFTs, or non-fungible tokens, are unique digital assets that can be showcased, bought, and sold on the blockchain. Purchasing an NFT gives you ownership over the unique digital creation, similar to buying a distinct painting or art piece.
